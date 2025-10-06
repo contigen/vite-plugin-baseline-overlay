@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-baseline-overlay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Vite plugin that displays baseline compatibility warnings in your browser",
   "main": "dist/index.js",
   "module": "dist/index.js",
