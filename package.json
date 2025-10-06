@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/contigen/vite-plugin-baseline-overlay.git"
+    "url": "git+https://github.com/contigen/vite-plugin-baseline-overlay.git"
   },
   "bugs": {
     "url": "https://github.com/contigen/vite-plugin-baseline-overlay/issues"
