@@ -1,0 +1,52 @@
+{
+  "name": "vite-plugin-baseline-overlay",
+  "version": "1.0.0",
+  "description": "A Vite plugin that displays baseline compatibility warnings in your browser",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "client"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "baseline",
+    "web-apis",
+    "browser-compatibility",
+    "development",
+    "overlay",
+    "real-time"
+  ],
+  "author": "contigen",
+  "license": "MIT",
+  "peerDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.28.4",
+    "@babel/traverse": "^7.28.4",
+    "postcss": "^8.4.0",
+    "postcss-selector-parser": "^7.1.0",
+    "web-features": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contigen/vite-plugin-baseline-overlay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/contigen/vite-plugin-baseline-overlay/issues"
+  },
+  "homepage": "https://github.com/contigen/vite-plugin-baseline-overlay#readme"
+}
