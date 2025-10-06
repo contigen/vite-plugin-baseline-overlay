@@ -28,11 +28,7 @@ function traverse(
         apiName === 'CSS.supports' ||
         apiName === 'CSS.has'
       ) {
-        // Debug: log the actual line content to verify
         const actualLine = lines[line - 1] || 'N/A'
-        console.log(
-          `🔍 Detected ${apiName} at line ${line}: "${actualLine.trim()}"`
-        )
         apis.push({ api: apiName, line, filename })
       }
     }
